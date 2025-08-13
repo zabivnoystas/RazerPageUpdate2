@@ -1,0 +1,924 @@
+body {
+    background-color: #6B6B6B;
+    font-family: "Inria Sans", sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1685px;
+    width: 100%;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    top: 0;
+}
+
+/* =============================Nav-area============================================= */
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-area {
+    background-color: black;
+    padding: 20px 0 20px 0;
+    border-bottom: 2px solid green;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation a {
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 13px;
+}
+
+.navigation svg {
+    width: 50px;
+    height: 50px;
+    fill: grey;
+}
+
+.navigation img {
+    width: 50px;
+    height: 50px;
+    fill: grey;
+}
+
+.navigation {
+    display: flex;
+    gap: 100px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+/* ================================earn-area=============================== */
+.earn-area {
+    background-color: grey;
+    color: white;
+}
+
+.earn-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.earn-area p {
+    margin: 10px 0 10px 0;
+}
+
+.earn-area a {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.earn-area a:hover {
+    text-decoration: underline;
+}
+
+/* ======================blade14-area============================================ */
+.blade14-area {
+    background-image: url(img/blade14/image\ 1.png);
+    height: 680px;
+    padding-top: 10px;
+    margin-top: 137px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.only-button {
+    background-color: #FF7700;
+    width: 200px;
+    text-align: center;
+    padding: 13px 0;
+}
+
+.only-button h2 {
+    font-size: 20px;
+}
+
+.blade14-p {
+    text-align: center;
+    color: #ffffffff;
+}
+
+.blade14-p p {
+    font-size: 20px;
+
+}
+
+.blade14-p h2 {
+    font-size: 40px;
+    margin: 10px 0 10px;
+}
+
+.blade14-about {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.blade14-about a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffffff;
+    padding: 0 10px 0 10px;
+}
+
+.blade14-about a:hover {
+    text-decoration: underline;
+}
+
+.blade14-about a::after {
+    content: ">";
+    color: green;
+}
+
+.column-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ==========================bon-area================================ */
+.bon-area {
+    margin-top: 25px;
+    background-image: url(img/bonanza/image\ 2.png);
+    height: 680px;
+    padding-top: 10px;
+    background-position: center center;
+}
+
+.bon-p {
+    color: #ffffffff;
+}
+
+.bon-p p {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.bon-p h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.bon-about {
+    margin-top: 10px;
+}
+
+.bon-about a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffffff;
+}
+
+.bon-about a:hover {
+    text-decoration: underline;
+}
+
+.bon-about a::after {
+    content: ">";
+    color: green;
+}
+
+/* =======================blade18-area============================= */
+.blade18-area {
+    background-image: url(img/blade18/image\ 3.png);
+    height: 680px;
+    padding-top: 10px;
+    margin-top: 25px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.only-button {
+    background-color: #FF7700;
+    width: 200px;
+    text-align: center;
+    padding: 13px 0;
+    transition: 1s;
+}
+
+.only-button:hover {
+    background-color: #ffffffff;
+    border: 1px solid #FF7700;
+    cursor: pointer;
+}
+
+.only-button h2:hover {
+    color: #FF7700;
+}
+
+.only-button h2 {
+    font-size: 20px;
+    transition: 1s;
+}
+
+.blade18-p {
+    text-align: center;
+    color: #ffffffff;
+}
+
+.blade18-p p {
+    font-size: 20px;
+
+}
+
+.blade18-p h2 {
+    font-size: 40px;
+    margin: 10px 0 10px;
+}
+
+.blade18-about {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.blade18-about a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffffff;
+    padding: 0 10px 0 10px;
+}
+
+.blade18-about a:hover {
+    text-decoration: underline;
+}
+
+.blade18-about a::after {
+    content: ">";
+    color: green;
+}
+
+.four-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+/* ======================clio=area============================== */
+.clio-area {
+    background-image: url(img/clio/image\ 4\ \(1\).png);
+    height: 540px;
+    padding-top: 10px;
+    width: 49%;
+    size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+}
+
+.clio-area:hover .clio-resp {
+    bottom: 10%;
+    left: 5%;
+}
+
+.only-button {
+    background-color: #FF7700;
+    width: 200px;
+    text-align: center;
+    padding: 13px 0;
+}
+
+.only-button h2 {
+    font-size: 20px;
+}
+
+.clio-p {
+    text-align: center;
+    color: #ffffffff;
+    margin-top: 10px;
+}
+
+.clio-p p {
+    font-size: 20px;
+
+}
+
+.clio-p h2 {
+    font-size: 32px;
+}
+
+.clio-about {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.clio-about a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffffff;
+    padding: 0 10px 0 10px;
+}
+
+.clio-about a:hover {
+    text-decoration: underline;
+}
+
+.clio-about a::after {
+    content: ">";
+    color: green;
+}
+
+.clio-resp {
+    background-color: #6B6B6B;
+    position: absolute;
+    bottom: 10%;
+    left: -50%;
+    border-radius: 20px;
+    z-index: 3;
+    padding: 20px;
+    transition: 1s;
+}
+
+.clio-resp p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #ffffffff;
+    gap: 10px;
+}
+
+.clio-resp p::after {
+    content: ":"
+}
+
+.clio-resp p svg {
+    width: 20px;
+    height: 20px;
+    fill: #ffffffff;
+}
+
+.clio-resp h2 {
+    font-size: 20px;
+    color: #ffffffff;
+}
+
+.clio-resp h2::before {
+    content: "-";
+    fill: #ffffffff;
+}
+
+/* ======================blade16=area============================== */
+.blade16-area {
+    background-image: url(img/blade16/image\ 5.png);
+    height: 540px;
+    padding-top: 10px;
+    width: 49%;
+    size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+}
+
+.blade16-area:hover .blade16-resp {
+    bottom: 10%;
+    right: 5%;
+}
+
+.only-button {
+    background-color: #FF7700;
+    width: 200px;
+    text-align: center;
+    padding: 13px 0;
+}
+
+.only-button h2 {
+    font-size: 20px;
+}
+
+.blade16-p {
+    text-align: center;
+    color: #ffffffff;
+    margin-top: 10px;
+}
+
+.blade16-p p {
+    font-size: 20px;
+
+}
+
+.blade16-p h2 {
+    font-size: 32px;
+}
+
+.blade-about {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.blade16-about a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffffff;
+    padding: 0 10px 0 10px;
+}
+
+.blade16-about a:hover {
+    text-decoration: underline;
+}
+
+.blade16-about a::after {
+    content: ">";
+    color: green;
+}
+
+.blade16-resp {
+    background-color: #6B6B6B;
+    position: absolute;
+    bottom: 10%;
+    right: -50%;
+    border-radius: 20px;
+    z-index: 3;
+    padding: 20px;
+    transition: 1s;
+}
+
+.blade16-resp p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #ffffffff;
+    gap: 10px;
+}
+
+.blade16-resp p::after {
+    content: ":"
+}
+
+.blade16-resp p svg {
+    width: 20px;
+    height: 20px;
+    fill: #ffffffff;
+}
+
+.blade16-resp h2 {
+    font-size: 20px;
+    color: #ffffffff;
+}
+
+.blade16-resp h2::before {
+    content: "-";
+    fill: #ffffffff;
+}
+
+/* ====================Device-area============================== */
+.device-area {
+    background-image: url(img/device/image\ 6.png);
+    height: 540px;
+    padding-top: 10px;
+    width: 49%;
+    size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+}
+
+.device-area:hover .device-resp {
+    bottom: 10%;
+    left: 5%;
+}
+
+.device-p {
+    text-align: center;
+    color: #ffffffff;
+    margin-top: 10px;
+}
+
+.device-p p {
+    font-size: 20px;
+
+}
+
+.device-p h2 {
+    font-size: 32px;
+}
+
+.device-about {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.device-about a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffffff;
+}
+
+.device-about a:hover {
+    text-decoration: underline;
+}
+
+.device-about a::after {
+    content: ">";
+    color: green;
+}
+
+.device-resp {
+    background-color: #6B6B6B;
+    position: absolute;
+    bottom: 10%;
+    left: -50%;
+    border-radius: 20px;
+    z-index: 3;
+    padding: 20px;
+    transition: 1s;
+}
+
+.device-resp p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #ffffffff;
+    gap: 10px;
+}
+
+.device-resp p::after {
+    content: ":"
+}
+
+.device-resp p svg {
+    width: 20px;
+    height: 20px;
+    fill: #ffffffff;
+}
+
+.device-resp h2 {
+    font-size: 20px;
+    color: #ffffffff;
+}
+
+.device-resp h2::before {
+    content: "-";
+    fill: #ffffffff;
+}
+
+/* ==============================Esports-area================================== */
+.esports-area {
+    background-image: url(img/esports/image\ 7.png);
+    height: 540px;
+    padding-top: 10px;
+    width: 49%;
+    size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+}
+
+.esports-area:hover .esports-resp {
+    bottom: 10%;
+    right: 5%;
+}
+
+.esports-p {
+    text-align: center;
+    color: #ffffffff;
+    margin-top: 10px;
+}
+
+.esports-p p {
+    font-size: 20px;
+
+}
+
+.esports-p h2 {
+    font-size: 32px;
+}
+
+.esports-about {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.esports-about a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffffff;
+}
+
+.esports-about a:hover {
+    text-decoration: underline;
+}
+
+.esports-about a::after {
+    content: ">";
+    color: green;
+}
+
+.esports-resp {
+    background-color: #6B6B6B;
+    position: absolute;
+    bottom: 10%;
+    right: -50%;
+    border-radius: 20px;
+    z-index: 3;
+    padding: 20px;
+    transition: 1s;
+}
+
+.esports-resp p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #ffffffff;
+    gap: 10px;
+}
+
+.esports-resp p::after {
+    content: ":"
+}
+
+.esports-resp p svg {
+    width: 20px;
+    height: 20px;
+    fill: #ffffffff;
+}
+
+.esports-resp h2 {
+    font-size: 20px;
+    color: #ffffffff;
+}
+
+.esports-resp h2::before {
+    content: "-";
+    fill: #ffffffff;
+}
+
+/* ==========================Contact-area================================= */
+.contact-area {
+    background-color: #414040;
+    padding-top: 10px;
+}
+
+.contact-container {
+    padding: 0 20px 20px 20px;
+}
+
+.contact-flex {
+    display: flex;
+}
+
+.contact-office {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px;
+}
+
+.contact-office h2 {
+    color: #ffffffff;
+    text-align: center;
+}
+
+.contact-info {
+    width: 50%;
+}
+
+.contact-logo {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.contact-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-end {
+    text-align: center;
+    color: #ffffffff;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.contact-end ul {
+    padding: 0%;
+}
+
+.contact-end li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.contact-end li svg {
+    width: 30px;
+    height: 30px;
+    fill: #ffffffff;
+    margin-right: 25px;
+}
+
+iframe {
+    max-width: 800px;
+}
+
+.burgerIcon svg {
+    fill: white;
+    display: none;
+}
+
+@media(max-width:900px) {
+    .container {
+        max-width: 870px;
+        width: 100%;
+    }
+
+    .clio-area {
+        width: 45%;
+    }
+
+    .blade16-area {
+        width: 45%;
+    }
+
+    .device-area {
+        width: 45%;
+    }
+
+    .esports-area {
+        width: 45%;
+    }
+
+    .four-boxes {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .clio-resp {
+        display: none;
+    }
+
+    .blade16-resp {
+        display: none;
+    }
+
+    .device-resp {
+        display: none;
+    }
+
+    .esports-resp {
+        display: none;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .contact-office {
+        width: 100%;
+    }
+
+    .contact-flex {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .contact-logo {
+        width: 100%;
+    }
+
+    .navigation {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .navigation img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .navigation svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .navigation a {
+        margin-top: 0;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+}
+
+@media(max-width:700px) {
+    .logo img {
+        margin-left: 20px;
+    }
+
+    .blade14-area {
+        margin-top: 0;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .blade16-area:focus .blade16-resp {
+        bottom: 10%;
+        right: 5%;
+    }
+
+
+    .burgerIcon svg {
+        fill: white;
+        display: block;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .contact-office {
+        width: 100%;
+    }
+
+    .container {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .clio-area {
+        width: 100%;
+    }
+
+    .navigation img {
+        display: none;
+    }
+
+    .navigation svg {
+        display: none;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .contact-flex {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .blade16-area {
+        width: 100%;
+    }
+
+    .esports-area {
+        width: 100%;
+    }
+
+    .device-area {
+        width: 100%;
+    }
+
+    .cotact-area {
+        width: 100%;
+    }
+
+    .earn-area {
+        display: none;
+    }
+}
